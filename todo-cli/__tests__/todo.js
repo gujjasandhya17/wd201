@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const todoList = require('../todo.js'); // Adjust the path if necessary
 
 const formattedDate = (d) => {
