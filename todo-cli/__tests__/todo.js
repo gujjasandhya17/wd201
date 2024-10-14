@@ -38,7 +38,7 @@ describe("TodoList Test Suite", () => {
         add({
             title: "Overdue Task",
             completed: false,
-            dueDate: "2023-10-10" // Assume today's date is later
+            dueDate: "2023-10-10" // Assume this is overdue
         });
         const overdueItems = overdue();
         expect(overdueItems.length).toBe(1); // One overdue item
